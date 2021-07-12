@@ -5,6 +5,17 @@
 import random
 from words import words
 
+hangman_image = ['_',
+                    '__',
+                    '__\n |',
+                    '__\n |\n O',
+                    '__\n |\n O\n |',
+                    '__\n |\n O\n/|',
+                    '__\n |\n O\n/|\ ',
+                    '__\n |\n O\n/|\ \n/',
+                    '__\n |\n O\n/|\ \n/ \ '
+                    ]
+
 number_mistake = 0
 letters_guessed = []
 trials = len(hangman_image)
