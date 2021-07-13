@@ -32,7 +32,7 @@ while number_mistake < trials:
     for letter in wrong_letters:
         print('{}, '.format(letter), end='')
     print()
-    print('You have {} many guesses left'.format(trials - number_mistake))
+    print('You have {} guesses left'.format(trials - number_mistake))
     player_letter = input ('Please enter a letter: ')
 
 
