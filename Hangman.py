@@ -71,7 +71,7 @@ while number_mistake < trials:
 
 if number_mistake == trials:
     print()
-    print('Unfortunately, You Have Lost, Try Again!')
+    print('Unfortunately, You Have Lost, Try Again! The word was '+word)
 
 
 
